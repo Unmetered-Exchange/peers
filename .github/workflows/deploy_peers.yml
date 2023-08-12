@@ -5,7 +5,7 @@ on:
       - 'master'
 jobs:
   refresh-repo:
-  runs-on: self-hosted
-  steps:
-    - run: 'ls /opt'
+    runs-on: self-hosted
+    steps:
+      - run: 'ls /opt'
 
