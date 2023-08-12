@@ -4,9 +4,10 @@ on:
     branches:
       - 'master'
 jobs:
-  refresh-repo:
+  deploy-peers:
     runs-on: self-hosted
     steps:
       - run: 'git -C /opt/ixp/peers pull'
       - run: 'cp /opt/ixp/peers/clients.yml /etc/arouteserver/clients.yml'
       - run: 'sudo /ixp/scripts/update_rs.sh'
+      - run 'j2 /opt/ixp/index.html.j2 /opt/ixp/peers/clients.yml > /var/www/html/index.html'
