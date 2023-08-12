@@ -1,0 +1,11 @@
+name: Deploy peers to the route servers
+on:
+  push:
+    branches:
+      - 'master'
+jobs:
+  refresh-repo:
+  runs-on: slef-hosted
+  steps:
+    - run: 'ls /opt'
+
