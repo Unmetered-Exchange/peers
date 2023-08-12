@@ -1087,7 +1087,7 @@ clients:
       irrdb:
         as_sets:
         - AS212618
-  description: "Frost Node LLC"
+  description: "Xentain Solutions Inc."
   ip:
   - 192.34.27.112
   - 2602:ffb1:0200:0:192:34:27:112
@@ -1102,6 +1102,17 @@ clients:
   ip:
   - 192.34.27.113
   - 2602:ffb1:0200:0:192:34:27:113
+
+  - asn: "200160"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS200160
+  description: "Putu Paundrayana Waringin"
+  ip:
+  - 192.34.27.114
+  - 2602:ffb1:0200:0:192:34:27:114
 
   - asn: "60900"
   cfg:
