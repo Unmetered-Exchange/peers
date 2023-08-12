@@ -7,6 +7,6 @@ jobs:
   refresh-repo:
     runs-on: self-hosted
     steps:
-      - run: 'git -c /opt/ixp/peers pull'
+      - run: 'git -C /opt/ixp/peers pull'
       - run: 'cp /opt/ixp/peers/clients.yml /etc/arouteserver/clients.yml'
 
