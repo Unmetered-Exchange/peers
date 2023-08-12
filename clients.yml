@@ -1086,7 +1086,7 @@ clients:
     filtering:
       irrdb:
         as_sets:
-        - AS212618
+        - AS212618:AS-XENTAIN
   description: "Xentain Solutions Inc."
   ip:
   - 192.34.27.112
@@ -1108,7 +1108,7 @@ clients:
     filtering:
       irrdb:
         as_sets:
-        - AS200160
+        - AS200160:AS-SET
   description: "Putu Paundrayana Waringin"
   ip:
   - 192.34.27.114
