@@ -1,1174 +1,1173 @@
 clients:
-- asn: "396503"
-  cfg:
-    filtering:
-      irrdb:
-        white_list_route:
-        - prefix: "44.135.193.0/24"
-          asn: 53356
-          length: 24
-        as_sets:
-        - AS-WESTCONNECT
-      max_prefix:
-        action: shutdown
-        peering_db:
-          enabled: false
-        limit_ipv4: 100
-        limit_ipv6: 100
-  description: Westconnect Communications
-  ip:
-  - 192.34.27.20
-  - 192.34.27.14
-  - 2602:ffb1:0200:0:192:34:27:20
-  - 2602:ffb1:0200:0:192:34:27:14
-
-- asn: "394256"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS-CLOUDSINGULARITY
-      max_prefix:
-        action: shutdown
-        peering_db:
-          enabled: false
-        limit_ipv4: 500
-        limit_ipv6: 500
-  description: TechFutures
-  ip:
-  - 192.34.27.5
-  - 192.34.27.105
-  - 192.34.27.205
-  - 2602:ffb1:0200:0:192:34:27:5
-  - 2602:ffb1:0200:0:192:34:27:105
-  - 2602:ffb1:0200:0:192:34:27:205
-
-- asn: "6939"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS-HURRICANEv6
-      max_prefix:
-        action: shutdown
-        peering_db:
-          enabled: false
-        limit_ipv4: 900000
-        limit_ipv6: 200000
-  description: Hurricane Electric
-  ip:
-  - 2602:ffb1:0200:0:192:34:27:6
-
-- asn: "6939"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS-HURRICANE
-      max_prefix:
-        action: shutdown
-        peering_db:
-          enabled: false
-        limit_ipv4: 200000
-        limit_ipv6: 60000
-  description: Hurricane Electric
-  ip:
-  - 192.34.27.6
-
-- asn: "54133"
-  cfg:
-#    filtering:
-#      irrdb:
-#        as_sets:
-#        - AS-CLOUDSINGULARITY
-#        white_list_route:
-#        - prefix: "206.82.96.0"
-#          length: 21
-#          asn: 54133
-#        - prefix: "104.218.56.0"
-#          length: 21
-#          asn: 54133
-#      max_prefix:
-#        action: shutdown
-#        peering_db:
-#          enabled: false
-    filtering:
-      irrdb:
-        as_sets:
-        - AS-54133-AS-EXCHANGE
-        - AS54133
-  description: UNMETERED ClearingHouse
-  ip:
-  - 192.34.27.1
-  - 2602:ffb1:200:0:192:34:27:1
-
-#- asn: "54133"
-#  cfg:
-#    filtering:
-#      irrdb:
-#        as_sets:
-#        - AS-CLOUDSINGULARITY
-#        white_list_route:
-#        - prefix: "206.82.96.0"
-#          length: 21
-#          asn: 396503
-#        - prefix: "104.218.56.0"
-#          length: 21
-#          asn: 396503
-#      max_prefix:
-#        action: shutdown
-#        peering_db:
-#          enabled: false
-#  description: UNMETERED.Link
-#  ip:
-#  - 192.34.27.3
-#  - 2602:ffb1:0200:0:192:34:27:3
-
-- asn: "14642"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS14642
-  description: MoreWave
-  ip:
-  - 192.34.27.7
-  - 2602:ffb1:0200:0:192:34:27:7
-
-- asn: "34927"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS-iFog
-  description: iFog
-  ip:
-  - 192.34.27.8
-  - 2602:ffb1:0200:0:192:34:27:8
-
-- asn: "210035"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS-CHDIX
-  description: PinkuDaimari
-  ip:
-  - 192.34.27.9
-  - 2602:ffb1:0200:0:192:34:27:9
-
-- asn: "58057"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS-BUEHL
-  description: 4b42-UG
-  ip:
-  - 192.34.27.10
-  - 2602:ffb1:0200:0:192:34:27:10
-
-- asn: "34924"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS34924
-  description: Pankerl Media
-  ip:
-  - 192.34.27.11
-  - 2602:ffb1:0200:0:192:34:27:11
-
-- asn: "39335"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS-EGGPLANT
-  description: Eggplant
-  ip:
-  - 192.34.27.12
-  - 2602:ffb1:0200:0:192:34:27:12
-
-- asn: "202313"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS-BRYCE
-  description: BryceWilson
-  ip:
-  - 192.34.27.13
-  - 2602:ffb1:0200:0:192:34:27:13
-
-- asn: "139921"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS-BAKKER
-  description: Unixfy
-  ip:
-  - 192.34.27.17
-  - 2602:ffb1:0200:0:192:34:27:17
-
-- asn: "53356"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS-FRC
-  description: Free Range Cloud Hosting Inc
-  ip:
-  - 192.34.27.4
-  - 2602:ffb1:0200:0:192:34:27:4
-
-- asn: "209022"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS209022
-  description: Tschajera Limited
-  ip:
-  - 192.34.27.21
-  - 2602:ffb1:0200:0:192:34:27:21
-
-- asn: "22541"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS22541
-  description: MegaLink SRL
-  ip:
-  - 192.34.27.22
-  - 2602:ffb1:0200:0:192:34:27:22
-
-- asn: "49933"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS49933
-  description: Alexander Karl
-  ip:
-  - 192.34.27.23
-  - 2602:ffb1:0200:0:192:34:27:23
-
-- asn: "22941"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS22941
-  description: "The Help Desk LLC"
-  ip:
-  - 192.34.27.26
-  - 2602:ffb1:0200:0:192:34:27:26
-
-- asn: "138365"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS138365
-  description: "E-Sports Ltd"
-  ip:
-  - 192.34.27.27
-  - 2602:ffb1:0200:0:192:34:27:27
-
-- asn: "25668"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS-CIPHERKEY-TRANSIT
-  description: "Cipherkey Exchange Corp"
-  ip:
-  - 192.34.27.28
-  - 2602:ffb1:0200:0:192:34:27:28
-
-- asn: "34553"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS-NATE
-  description: "Nathan Sales"
-  ip:
-  - 192.34.27.18
-  - 2602:ffb1:0200:0:192:34:27:18
-
-- asn: "207654"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS207654
-  description: "11207547 CANADA SARF"
-  ip:
-  - 192.34.27.19
-  - 2602:ffb1:0200:0:192:34:27:19
-
-- asn: "212995"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS-TAN-NET
-  description: "HockWoo Tan"
-  ip:
-  - 192.34.27.29
-  - 2602:ffb1:0200:0:192:34:27:29
-
-- asn: "213092"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS-MARBLEIS
-  description: "Marble Information Systems Limited"
-  ip:
-  - 192.34.27.32
-  - 2602:ffb1:0200:0:192:34:27:32
-- asn: "46997"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS46997
-  description: "Nato Research Network"
-  ip:
-  - 192.34.27.15
-  - 2602:ffb1:0200:0:192:34:27:15
-
-- asn: "136451"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS136451
-  description: "365 Node Network"
-  ip:
-  - 192.34.27.34
-  - 2602:ffb1:0200:0:192:34:27:34
-
-- asn: "207268"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS-STREXP
-  description: "STRATEGIC EXPLORATIONS LTD"
-  ip:
-  - 192.34.27.35
-  - 2602:ffb1:0200:0:192:34:27:35
-
-- asn: "212987"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS212987
-  description: "NekoCloud Solutions Limited"
-  ip:
-  - 192.34.27.36
-  - 2602:ffb1:0200:0:192:34:27:36
-
-- asn: "213262"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS213262
-  description: "Moe Overflow Electric Limited"
-  ip:
-  - 192.34.27.37
-  - 2602:ffb1:0200:0:192:34:27:37
-
-- asn: "200105"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS200105
-  description: "MoeQing Network Service"
-  ip:
-  - 192.34.27.38
-  - 2602:ffb1:0200:0:192:34:27:38
-
-- asn: "205593"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS205593
-  description: "TAKEN.PL IT SERVICES"
-  ip:
-  - 192.34.27.39
-  - 2602:ffb1:0200:0:192:34:27:39
-
-- asn: "212705"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS212705
-  description: "Geek Networks"
-  ip:
-  - 192.34.27.41
-  - 2602:ffb1:0200:0:192:34:27:41
-
-- asn: "212568"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS-EXODUS
-  description: "David Moes"
-  ip:
-  - 192.34.27.42
-  - 2602:ffb1:0200:0:192:34:27:42
-
-- asn: "141694"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS141694
-  description: "Otaku Japan"
-  ip:
-  - 192.34.27.43
-  - 2602:ffb1:0200:0:192:34:27:43
-
-- asn: "57883"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS57883
-  description: "NITAET"
-  ip:
-  - 192.34.27.45
-  - 2602:ffb1:0200:0:192:34:27:45
-
-- asn: "212793"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS212793
-  description: "Xiwei Ye"
-  ip:
-  - 192.34.27.47
-  - 2602:ffb1:0200:0:192:34:27:47
-
-- asn: "211954"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS211954
-  description: "RouteIX"
-  ip:
-  - 192.34.27.49
-  - 2602:ffb1:0200:0:192:34:27:49
-
-- asn: "141011"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS141011
-  description: "Huize Net"
-  ip:
-  - 192.34.27.50
-  - 2602:ffb1:0200:0:192:34:27:50
-
-- asn: "44509"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS44509
-  description: "LZ Netowrks LTD"
-  ip:
-  - 192.34.27.51
-  - 2602:ffb1:0200:0:192:34:27:51
-
-- asn: "9886"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS9886
-  description: "MercyCloud"
-  ip:
-  - 192.34.27.52
-  - 2602:ffb1:0200:0:192:34:27:52
-
-- asn: "14570"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS14570
-  description: "I am a bad actor LLC"
-  ip:
-  - 192.34.27.53
-  - 2602:ffb1:0200:0:192:34:27:53
-
-- asn: "211323"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS211323
-  description: "MrSheepNET LTD"
-  ip:
-  - 192.34.27.54
-  - 2602:ffb1:0200:0:192:34:27:54
-
-- asn: "3280"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS3280
-  description: "Layerbridge SRL"
-  ip:
-  - 192.34.27.55
-  - 2602:ffb1:0200:0:192:34:27:55
-
-- asn: "211544"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS211544
-  description: "Daniel Olewine"
-  ip:
-  - 192.34.27.56
-  - 2602:ffb1:0200:0:192:34:27:56
-
-- asn: "211876"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS211876
-  description: "fixmix Technologies Ltd"
-  ip:
-  - 192.34.27.57
-  - 2602:ffb1:0200:0:192:34:27:57
-
-- asn: "209870"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS209870
-  description: "OPTIX TRANSIT LTD"
-  ip:
-  - 192.34.27.58
-  - 2602:ffb1:0200:0:192:34:27:58
-
-- asn: "212895"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS212895
-  description: "FreeTransit.net"
-  ip:
-  - 192.34.27.59
-  - 2602:ffb1:0200:0:192:34:27:59
-
-- asn: "140984"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS-WTWINC
-  description: "WTW HIGHTECH COMPANY INC"
-  ip:
-  - 192.34.27.60
-  - 2602:ffb1:0200:0:192:34:27:60
-
-- asn: "211397"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS211397
-  description: "WebLink SRL"
-  ip:
-  - 192.34.27.61
-  - 2602:ffb1:0200:0:192:34:27:61
-
-- asn: "135395"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS135395
-  description: "Hertz"
-  ip:
-  - 192.34.27.63
-  - 2602:ffb1:0200:0:192:34:27:63
-- asn: "211272"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS211272
-  description: "ZoneTech Communications"
-  ip:
-  - 192.34.27.65
-  - 2602:ffb1:0200:0:192:34:27:65
-- asn: "38136"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS38136
-  description: "Akari Networks"
-  ip:
-  - 192.34.27.67
-  - 2602:ffb1:0200:0:192:34:27:67
-- asn: "142281"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS142281
-  description: "Yuuta Backbone"
-  ip:
-  - 192.34.27.68
-  - 2602:ffb1:0200:0:192:34:27:68
-- asn: "210902"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS210902
-  description: "Mail xPert GmbH"
-  ip:
-  - 192.34.27.69
-  - 2602:ffb1:0200:0:192:34:27:69
-- asn: "7719"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS7719
-  description: "Haonan Yang"
-  ip:
-  - 192.34.27.70
-  - 2602:ffb1:0200:0:192:34:27:70
-- asn: "212034"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS212034
-  description: "Zezhu Yu"
-  ip:
-  - 192.34.27.71
-  - 2602:ffb1:0200:0:192:34:27:71
-- asn: "205096"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS205096
-  description: "Christopher Munz-Michielin"
-  ip:
-  - 192.34.27.73
-  - 2602:ffb1:0200:0:192:34:27:73
-- asn: "207036"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS207036
-  description: "aaNetworks"
-  ip:
-  - 192.34.27.74
-  - 2602:ffb1:0200:0:192:34:27:74
-- asn: "210872"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS210872
-  description: "Cui, Jiacheng"
-  ip:
-  - 192.34.27.75
-  - 2602:ffb1:0200:0:192:34:27:75
-
-- asn: "147028"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS147028
-  description: "Wang Yongjin"
-  ip:
-  - 192.34.27.76
-  - 2602:ffb1:0200:0:192:34:27:76
-
-- asn: "51999"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS-WHITEHAT
-  description: "ROIX"
-  ip:
-  - 192.34.27.77
-  - 2602:ffb1:0200:0:192:34:27:77
-- asn: "210481"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS210481
-  description: "EDGYNET"
-  ip:
-  - 192.34.27.78
-  - 2602:ffb1:0200:0:192:34:27:78
-
-- asn: "213163"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS213163
-  description: "Guhyun Chung"
-  ip:
-  - 192.34.27.79
-  - 2602:ffb1:0200:0:192:34:27:79
-
-- asn: "59570"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS-HOSTINGSTUDIO
-  description: "Hosting Studio"
-  ip:
-  - 192.34.27.80
-  - 2602:ffb1:0200:0:192:34:27:80
-
-- asn: "400307"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS400307
-  description: "Pacific Delta"
-  ip:
-  - 192.34.27.81
-  - 2602:ffb1:0200:0:192:34:27:81
-
-- asn: "147039"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS147039
-  description: "Cyprea Private Limited"
-  ip:
-  - 192.34.27.82
-  - 2602:ffb1:0200:0:192:34:27:82
-
-- asn: "210354"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS-SYSLEVEL
-  description: "Syslevel SAS"
-  ip:
-  - 192.34.27.84
-  - 2602:ffb1:0200:0:192:34:27:84
-
-- asn: "210836"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS210836
-  description: "Edward Behling"
-  ip:
-  - 192.34.27.85
-  - 2602:ffb1:0200:0:192:34:27:85
-
-- asn: "399992"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS399992
-  description: "KDTD Net"
-  ip:
-  - 192.34.27.86
-  - 2602:ffb1:0200:0:192:34:27:86
-
-- asn: "205648"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS205648
-  description: "ODN Inc"
-  ip:
-  - 192.34.27.87
-  - 2602:ffb1:0200:0:192:34:27:87
-
-- asn: "131171"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS131171
-  description: "Everlife Networks"
-  ip:
-  - 192.34.27.88
-  - 2602:ffb1:0200:0:192:34:27:88
-
-- asn: "211571"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS211571
-  description: "Xin Zhao"
-  ip:
-  - 192.34.27.89
-  - 2602:ffb1:0200:0:192:34:27:89
-
-- asn: "205794"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS205794
-  description: "Jinze Yang"
-  ip:
-  - 192.34.27.90
-  - 2602:ffb1:0200:0:192:34:27:90
-
-- asn: "213316"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS-COCONUT
-  description: "Coconut Networks LTD"
-  ip:
-  - 192.34.27.92
-  - 2602:ffb1:0200:0:192:34:27:92
-
-- asn: "140731"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  RIPE::AS-TOHUNET
-  description: "TOHU Public Internet"
-  ip:
-  - 192.34.27.91
-  - 2602:ffb1:0200:0:192:34:27:91
-
-- asn: "203655"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS203655
-  description: "Zhiwensun"
-  ip:
-  - 192.34.27.93
-  - 2602:ffb1:0200:0:192:34:27:93
-
-- asn: "57406"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS57406
-  description: "Zero Distance LLC"
-  ip:
-  - 192.34.27.94
-  - 2602:ffb1:0200:0:192:34:27:94
-
-- asn: "211877"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS211877
-  description: "GHOSTEY LTD"
-  ip:
-  - 192.34.27.95
-  - 2602:ffb1:0200:0:192:34:27:95
-
-- asn: "142280"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS-NTEREN
-  description: "NaiveTomcat"
-  ip:
-  - 192.34.27.96
-  - 2602:ffb1:0200:0:192:34:27:96
-
-- asn: "202427"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS-FILLI
-  description: "Ursin Filli"
-  ip:
-  - 192.34.27.97
-  - 2602:ffb1:0200:0:192:34:27:97
-
-- asn: "200866"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS-GUARANDOO
-  description: "John Mark Gabriel Caguicla"
-  ip:
-  - 192.34.27.98
-  - 2602:ffb1:0200:0:192:34:27:98
-
-- asn: "41732"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS41732
-  description: "Hosting Fuze"
-  ip:
-  - 192.34.27.99
-  - 2602:ffb1:0200:0:192:34:27:99
-
-- asn: "209933"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS209933
-  description: "David Andri Jakobsson"
-  ip:
-  - 192.34.27.100
-  - 2602:ffb1:0200:0:192:34:27:100
-
-- asn: "57870"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS57870
-  description: "UNLIMITED IS LIMITED"
-  ip:
-  - 192.34.27.101
-  - 2602:ffb1:0200:0:192:34:27:101
-
-- asn: "205552"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS205552
-  description: "Lots of Bits LTD"
-  ip:
-  - 192.34.27.102
-  - 2602:ffb1:0200:0:192:34:27:102
-
-- asn: "198862"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS198862
-  description: "We Move Bits LTD"
-  ip:
-  - 192.34.27.103
-  - 2602:ffb1:0200:0:192:34:27:103
-
-- asn: "198789"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS198789
-  description: "Speedy IP Services"
-  ip:
-  - 192.34.27.104
-  - 2602:ffb1:0200:0:192:34:27:104
-
-- asn: "61302"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS-HUIZE
-  description: "Huize LTD"
-  ip:
-  - 192.34.27.106
-  - 2602:ffb1:0200:0:192:34:27:106
-
-- asn: "198740"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS198740 
-  description: "Speedy Bits LTD"
-  ip:
-  - 192.34.27.107
-  - 2602:ffb1:0200:0:192:34:27:107
-
-- asn: "200174"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS200174
-  description: "Wispeed LTD"
-  ip:
-  - 192.34.27.108
-  - 2602:ffb1:0200:0:192:34:27:108
-
-- asn: "23181"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS23181
-  description: "Access DG"
-  ip:
-  - 192.34.27.109
-  - 2602:ffb1:0200:0:192:34:27:109
-
-- asn: "51019"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS51019:AS-ALL
-  description: "Kjartan Hrafnkelsson trading as KTT"
-  ip:
-  - 192.34.27.110
-  - 2602:ffb1:0200:0:192:34:27:110
-
-- asn: "203691"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS-MALINDEX
-  description: "Mali Network"
-  ip:
-  - 192.34.27.111
-  - 2602:ffb1:0200:0:192:34:27:111
-
-- asn: "212618"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS212618:AS-XENTAIN
-  description: "Xentain Solutions Inc."
-  ip:
-  - 192.34.27.112
-  - 2602:ffb1:0200:0:192:34:27:112
-  
-- asn: "198077"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS198077
-  description: "April Internet Limited"
-  ip:
-  - 192.34.27.113
-  - 2602:ffb1:0200:0:192:34:27:113
-
-- asn: "200160"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS200160:AS-SET
-  description: "Putu Paundrayana Waringin"
-  ip:
-  - 192.34.27.114
-  - 2602:ffb1:0200:0:192:34:27:114
-
-- asn: "60900"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS60900:AS-MAIN
-        - AS-SSMIDGELLC
-  description: "Ssmidge LLC"
-  ip:
-  - 192.34.27.115
-  - 2602:ffb1:0200:0:192:34:27:115
-
-- asn: "48717"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS48717:AS-MAIN
-  description: "Route96 LLC"
-  ip:
-  - 2602:ffb1:0200:0:192:34:27:116
-
-#- asn: "198789"
-#  cfg:
-#    filtering:
-#      irrdb:
-#        as_sets:
-#        - AS198789
-#  description: "Wispeed LTD"
-#  ip:
-#  - 192.34.27.106
-#  - 2602:ffb1:0200:0:192:34:27:106
-
-#- asn: "198789"
-#  cfg:
-#    filtering:
-#      irrdb:
-#        as_sets:
-#        - AS198789
-#  description: "Speedy Bits LTD"
-#  ip:
-#  - 192.34.27.107
-#  - 2602:ffb1:0200:0:192:34:27:107
-
-
-- asn: "112"
-  cfg:
-    filtering:
-      max_prefix:
-        action: shutdown
-        peering_db:
-          enabled: false
-        limit_ipv4: 10
-        limit_ipv6: 10
-  description: as112.net
-  ip:
-  - 192.34.27.252
-  - 2602:ffb1:0200:0:192:34:27:252
+  - asn: "396503"
+    cfg:
+      filtering:
+        irrdb:
+          white_list_route:
+            - prefix: "44.135.193.0/24"
+              asn: 53356
+              length: 24
+          as_sets:
+            - AS-WESTCONNECT
+        max_prefix:
+          action: shutdown
+          peering_db:
+            enabled: false
+          limit_ipv4: 100
+          limit_ipv6: 100
+    description: Westconnect Communications
+    ip:
+      - 192.34.27.20
+      - 192.34.27.14
+      - 2602:ffb1:0200:0:192:34:27:20
+      - 2602:ffb1:0200:0:192:34:27:14
+
+  - asn: "394256"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-CLOUDSINGULARITY
+        max_prefix:
+          action: shutdown
+          peering_db:
+            enabled: false
+          limit_ipv4: 500
+          limit_ipv6: 500
+    description: TechFutures
+    ip:
+      - 192.34.27.5
+      - 192.34.27.105
+      - 192.34.27.205
+      - 2602:ffb1:0200:0:192:34:27:5
+      - 2602:ffb1:0200:0:192:34:27:105
+      - 2602:ffb1:0200:0:192:34:27:205
+
+  - asn: "6939"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-HURRICANEv6
+        max_prefix:
+          action: shutdown
+          peering_db:
+            enabled: false
+          limit_ipv4: 900000
+          limit_ipv6: 200000
+    description: Hurricane Electric
+    ip:
+      - 2602:ffb1:0200:0:192:34:27:6
+
+  - asn: "6939"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-HURRICANE
+        max_prefix:
+          action: shutdown
+          peering_db:
+            enabled: false
+          limit_ipv4: 200000
+          limit_ipv6: 60000
+    description: Hurricane Electric
+    ip:
+      - 192.34.27.6
+
+  - asn: "54133"
+    cfg:
+      #    filtering:
+      #      irrdb:
+      #        as_sets:
+      #        - AS-CLOUDSINGULARITY
+      #        white_list_route:
+      #        - prefix: "206.82.96.0"
+      #          length: 21
+      #          asn: 54133
+      #        - prefix: "104.218.56.0"
+      #          length: 21
+      #          asn: 54133
+      #      max_prefix:
+      #        action: shutdown
+      #        peering_db:
+      #          enabled: false
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-54133-AS-EXCHANGE
+            - AS54133
+    description: UNMETERED ClearingHouse
+    ip:
+      - 192.34.27.1
+      - 2602:ffb1:200:0:192:34:27:1
+
+  #- asn: "54133"
+  #  cfg:
+  #    filtering:
+  #      irrdb:
+  #        as_sets:
+  #        - AS-CLOUDSINGULARITY
+  #        white_list_route:
+  #        - prefix: "206.82.96.0"
+  #          length: 21
+  #          asn: 396503
+  #        - prefix: "104.218.56.0"
+  #          length: 21
+  #          asn: 396503
+  #      max_prefix:
+  #        action: shutdown
+  #        peering_db:
+  #          enabled: false
+  #  description: UNMETERED.Link
+  #  ip:
+  #  - 192.34.27.3
+  #  - 2602:ffb1:0200:0:192:34:27:3
+
+  - asn: "14642"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS14642
+    description: MoreWave
+    ip:
+      - 192.34.27.7
+      - 2602:ffb1:0200:0:192:34:27:7
+
+  - asn: "34927"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-iFog
+    description: iFog
+    ip:
+      - 192.34.27.8
+      - 2602:ffb1:0200:0:192:34:27:8
+
+  - asn: "210035"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-CHDIX
+    description: PinkuDaimari
+    ip:
+      - 192.34.27.9
+      - 2602:ffb1:0200:0:192:34:27:9
+
+  - asn: "58057"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-BUEHL
+    description: 4b42-UG
+    ip:
+      - 192.34.27.10
+      - 2602:ffb1:0200:0:192:34:27:10
+
+  - asn: "34924"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS34924
+    description: Pankerl Media
+    ip:
+      - 192.34.27.11
+      - 2602:ffb1:0200:0:192:34:27:11
+
+  - asn: "39335"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-EGGPLANT
+    description: Eggplant
+    ip:
+      - 192.34.27.12
+      - 2602:ffb1:0200:0:192:34:27:12
+
+  - asn: "202313"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-BRYCE
+    description: BryceWilson
+    ip:
+      - 192.34.27.13
+      - 2602:ffb1:0200:0:192:34:27:13
+
+  - asn: "139921"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-BAKKER
+    description: Unixfy
+    ip:
+      - 192.34.27.17
+      - 2602:ffb1:0200:0:192:34:27:17
+
+  - asn: "53356"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-FRC
+    description: Free Range Cloud Hosting Inc
+    ip:
+      - 192.34.27.4
+      - 2602:ffb1:0200:0:192:34:27:4
+
+  - asn: "209022"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS209022
+    description: Tschajera Limited
+    ip:
+      - 192.34.27.21
+      - 2602:ffb1:0200:0:192:34:27:21
+
+  - asn: "22541"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS22541
+    description: MegaLink SRL
+    ip:
+      - 192.34.27.22
+      - 2602:ffb1:0200:0:192:34:27:22
+
+  - asn: "49933"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS49933
+    description: Alexander Karl
+    ip:
+      - 192.34.27.23
+      - 2602:ffb1:0200:0:192:34:27:23
+
+  - asn: "22941"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS22941
+    description: "The Help Desk LLC"
+    ip:
+      - 192.34.27.26
+      - 2602:ffb1:0200:0:192:34:27:26
+
+  - asn: "138365"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS138365
+    description: "E-Sports Ltd"
+    ip:
+      - 192.34.27.27
+      - 2602:ffb1:0200:0:192:34:27:27
+
+  - asn: "25668"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-CIPHERKEY-TRANSIT
+    description: "Cipherkey Exchange Corp"
+    ip:
+      - 192.34.27.28
+      - 2602:ffb1:0200:0:192:34:27:28
+
+  - asn: "34553"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-NATE
+    description: "Nathan Sales"
+    ip:
+      - 192.34.27.18
+      - 2602:ffb1:0200:0:192:34:27:18
+
+  - asn: "207654"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS207654
+    description: "11207547 CANADA SARF"
+    ip:
+      - 192.34.27.19
+      - 2602:ffb1:0200:0:192:34:27:19
+
+  - asn: "212995"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-TAN-NET
+    description: "HockWoo Tan"
+    ip:
+      - 192.34.27.29
+      - 2602:ffb1:0200:0:192:34:27:29
+
+  - asn: "213092"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-MARBLEIS
+    description: "Marble Information Systems Limited"
+    ip:
+      - 192.34.27.32
+      - 2602:ffb1:0200:0:192:34:27:32
+  - asn: "46997"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS46997
+    description: "Nato Research Network"
+    ip:
+      - 192.34.27.15
+      - 2602:ffb1:0200:0:192:34:27:15
+
+  - asn: "136451"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS136451
+    description: "365 Node Network"
+    ip:
+      - 192.34.27.34
+      - 2602:ffb1:0200:0:192:34:27:34
+
+  - asn: "207268"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-STREXP
+    description: "STRATEGIC EXPLORATIONS LTD"
+    ip:
+      - 192.34.27.35
+      - 2602:ffb1:0200:0:192:34:27:35
+
+  - asn: "212987"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS212987
+    description: "NekoCloud Solutions Limited"
+    ip:
+      - 192.34.27.36
+      - 2602:ffb1:0200:0:192:34:27:36
+
+  - asn: "213262"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS213262
+    description: "Moe Overflow Electric Limited"
+    ip:
+      - 192.34.27.37
+      - 2602:ffb1:0200:0:192:34:27:37
+
+  - asn: "200105"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS200105
+    description: "MoeQing Network Service"
+    ip:
+      - 192.34.27.38
+      - 2602:ffb1:0200:0:192:34:27:38
+
+  - asn: "205593"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS205593
+    description: "TAKEN.PL IT SERVICES"
+    ip:
+      - 192.34.27.39
+      - 2602:ffb1:0200:0:192:34:27:39
+
+  - asn: "212705"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS212705
+    description: "Geek Networks"
+    ip:
+      - 192.34.27.41
+      - 2602:ffb1:0200:0:192:34:27:41
+
+  - asn: "212568"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-EXODUS
+    description: "David Moes"
+    ip:
+      - 192.34.27.42
+      - 2602:ffb1:0200:0:192:34:27:42
+
+  - asn: "141694"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS141694
+    description: "Otaku Japan"
+    ip:
+      - 192.34.27.43
+      - 2602:ffb1:0200:0:192:34:27:43
+
+  - asn: "57883"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS57883
+    description: "NITAET"
+    ip:
+      - 192.34.27.45
+      - 2602:ffb1:0200:0:192:34:27:45
+
+  - asn: "212793"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS212793
+    description: "Xiwei Ye"
+    ip:
+      - 192.34.27.47
+      - 2602:ffb1:0200:0:192:34:27:47
+
+  - asn: "211954"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS211954
+    description: "RouteIX"
+    ip:
+      - 192.34.27.49
+      - 2602:ffb1:0200:0:192:34:27:49
+
+  - asn: "141011"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS141011
+    description: "Huize Net"
+    ip:
+      - 192.34.27.50
+      - 2602:ffb1:0200:0:192:34:27:50
+
+  - asn: "44509"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS44509
+    description: "LZ Netowrks LTD"
+    ip:
+      - 192.34.27.51
+      - 2602:ffb1:0200:0:192:34:27:51
+
+  - asn: "9886"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS9886
+    description: "MercyCloud"
+    ip:
+      - 192.34.27.52
+      - 2602:ffb1:0200:0:192:34:27:52
+
+  - asn: "14570"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS14570
+    description: "I am a bad actor LLC"
+    ip:
+      - 192.34.27.53
+      - 2602:ffb1:0200:0:192:34:27:53
+
+  - asn: "211323"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS211323
+    description: "MrSheepNET LTD"
+    ip:
+      - 192.34.27.54
+      - 2602:ffb1:0200:0:192:34:27:54
+
+  - asn: "3280"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS3280
+    description: "Layerbridge SRL"
+    ip:
+      - 192.34.27.55
+      - 2602:ffb1:0200:0:192:34:27:55
+
+  - asn: "211544"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS211544
+    description: "Daniel Olewine"
+    ip:
+      - 192.34.27.56
+      - 2602:ffb1:0200:0:192:34:27:56
+
+  - asn: "211876"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS211876
+    description: "fixmix Technologies Ltd"
+    ip:
+      - 192.34.27.57
+      - 2602:ffb1:0200:0:192:34:27:57
+
+  - asn: "209870"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS209870
+    description: "OPTIX TRANSIT LTD"
+    ip:
+      - 192.34.27.58
+      - 2602:ffb1:0200:0:192:34:27:58
+
+  - asn: "212895"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS212895
+    description: "FreeTransit.net"
+    ip:
+      - 192.34.27.59
+      - 2602:ffb1:0200:0:192:34:27:59
+
+  - asn: "140984"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-WTWINC
+    description: "WTW HIGHTECH COMPANY INC"
+    ip:
+      - 192.34.27.60
+      - 2602:ffb1:0200:0:192:34:27:60
+
+  - asn: "211397"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS211397
+    description: "WebLink SRL"
+    ip:
+      - 192.34.27.61
+      - 2602:ffb1:0200:0:192:34:27:61
+
+  - asn: "135395"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS135395
+    description: "Hertz"
+    ip:
+      - 192.34.27.63
+      - 2602:ffb1:0200:0:192:34:27:63
+  - asn: "211272"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS211272
+    description: "ZoneTech Communications"
+    ip:
+      - 192.34.27.65
+      - 2602:ffb1:0200:0:192:34:27:65
+  - asn: "38136"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS38136
+    description: "Akari Networks"
+    ip:
+      - 192.34.27.67
+      - 2602:ffb1:0200:0:192:34:27:67
+  - asn: "142281"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS142281
+    description: "Yuuta Backbone"
+    ip:
+      - 192.34.27.68
+      - 2602:ffb1:0200:0:192:34:27:68
+  - asn: "210902"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS210902
+    description: "Mail xPert GmbH"
+    ip:
+      - 192.34.27.69
+      - 2602:ffb1:0200:0:192:34:27:69
+  - asn: "7719"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS7719
+    description: "Haonan Yang"
+    ip:
+      - 192.34.27.70
+      - 2602:ffb1:0200:0:192:34:27:70
+  - asn: "212034"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS212034
+    description: "Zezhu Yu"
+    ip:
+      - 192.34.27.71
+      - 2602:ffb1:0200:0:192:34:27:71
+  - asn: "205096"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS205096
+    description: "Christopher Munz-Michielin"
+    ip:
+      - 192.34.27.73
+      - 2602:ffb1:0200:0:192:34:27:73
+  - asn: "207036"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS207036
+    description: "aaNetworks"
+    ip:
+      - 192.34.27.74
+      - 2602:ffb1:0200:0:192:34:27:74
+  - asn: "210872"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS210872
+    description: "Cui, Jiacheng"
+    ip:
+      - 192.34.27.75
+      - 2602:ffb1:0200:0:192:34:27:75
+
+  - asn: "147028"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS147028
+    description: "Wang Yongjin"
+    ip:
+      - 192.34.27.76
+      - 2602:ffb1:0200:0:192:34:27:76
+
+  - asn: "51999"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-WHITEHAT
+    description: "ROIX"
+    ip:
+      - 192.34.27.77
+      - 2602:ffb1:0200:0:192:34:27:77
+  - asn: "210481"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS210481
+    description: "EDGYNET"
+    ip:
+      - 192.34.27.78
+      - 2602:ffb1:0200:0:192:34:27:78
+
+  - asn: "213163"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS213163
+    description: "Guhyun Chung"
+    ip:
+      - 192.34.27.79
+      - 2602:ffb1:0200:0:192:34:27:79
+
+  - asn: "59570"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-HOSTINGSTUDIO
+    description: "Hosting Studio"
+    ip:
+      - 192.34.27.80
+      - 2602:ffb1:0200:0:192:34:27:80
+
+  - asn: "400307"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS400307
+    description: "Pacific Delta"
+    ip:
+      - 192.34.27.81
+      - 2602:ffb1:0200:0:192:34:27:81
+
+  - asn: "147039"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS147039
+    description: "Cyprea Private Limited"
+    ip:
+      - 192.34.27.82
+      - 2602:ffb1:0200:0:192:34:27:82
+
+  - asn: "210354"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-SYSLEVEL
+    description: "Syslevel SAS"
+    ip:
+      - 192.34.27.84
+      - 2602:ffb1:0200:0:192:34:27:84
+
+  - asn: "210836"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS210836
+    description: "Edward Behling"
+    ip:
+      - 192.34.27.85
+      - 2602:ffb1:0200:0:192:34:27:85
+
+  - asn: "399992"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS399992
+    description: "KDTD Net"
+    ip:
+      - 192.34.27.86
+      - 2602:ffb1:0200:0:192:34:27:86
+
+  - asn: "205648"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS205648
+    description: "ODN Inc"
+    ip:
+      - 192.34.27.87
+      - 2602:ffb1:0200:0:192:34:27:87
+
+  - asn: "131171"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS131171
+    description: "Everlife Networks"
+    ip:
+      - 192.34.27.88
+      - 2602:ffb1:0200:0:192:34:27:88
+
+  - asn: "211571"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS211571
+    description: "Xin Zhao"
+    ip:
+      - 192.34.27.89
+      - 2602:ffb1:0200:0:192:34:27:89
+
+  - asn: "205794"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS205794
+    description: "Jinze Yang"
+    ip:
+      - 192.34.27.90
+      - 2602:ffb1:0200:0:192:34:27:90
+
+  - asn: "213316"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-COCONUT
+    description: "Coconut Networks LTD"
+    ip:
+      - 192.34.27.92
+      - 2602:ffb1:0200:0:192:34:27:92
+
+  - asn: "140731"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - RIPE::AS-TOHUNET
+    description: "TOHU Public Internet"
+    ip:
+      - 192.34.27.91
+      - 2602:ffb1:0200:0:192:34:27:91
+
+  - asn: "203655"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS203655
+    description: "Zhiwensun"
+    ip:
+      - 192.34.27.93
+      - 2602:ffb1:0200:0:192:34:27:93
+
+  - asn: "57406"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS57406
+    description: "Zero Distance LLC"
+    ip:
+      - 192.34.27.94
+      - 2602:ffb1:0200:0:192:34:27:94
+
+  - asn: "211877"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS211877
+    description: "GHOSTEY LTD"
+    ip:
+      - 192.34.27.95
+      - 2602:ffb1:0200:0:192:34:27:95
+
+  - asn: "142280"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-NTEREN
+    description: "NaiveTomcat"
+    ip:
+      - 192.34.27.96
+      - 2602:ffb1:0200:0:192:34:27:96
+
+  - asn: "202427"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-FILLI
+    description: "Ursin Filli"
+    ip:
+      - 192.34.27.97
+      - 2602:ffb1:0200:0:192:34:27:97
+
+  - asn: "200866"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-GUARANDOO
+    description: "John Mark Gabriel Caguicla"
+    ip:
+      - 192.34.27.98
+      - 2602:ffb1:0200:0:192:34:27:98
+
+  - asn: "41732"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS41732
+    description: "Hosting Fuze"
+    ip:
+      - 192.34.27.99
+      - 2602:ffb1:0200:0:192:34:27:99
+
+  - asn: "209933"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS209933
+    description: "David Andri Jakobsson"
+    ip:
+      - 192.34.27.100
+      - 2602:ffb1:0200:0:192:34:27:100
+
+  - asn: "57870"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS57870
+    description: "UNLIMITED IS LIMITED"
+    ip:
+      - 192.34.27.101
+      - 2602:ffb1:0200:0:192:34:27:101
+
+  - asn: "205552"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS205552
+    description: "Lots of Bits LTD"
+    ip:
+      - 192.34.27.102
+      - 2602:ffb1:0200:0:192:34:27:102
+
+  - asn: "198862"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS198862
+    description: "We Move Bits LTD"
+    ip:
+      - 192.34.27.103
+      - 2602:ffb1:0200:0:192:34:27:103
+
+  - asn: "198789"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS198789
+    description: "Speedy IP Services"
+    ip:
+      - 192.34.27.104
+      - 2602:ffb1:0200:0:192:34:27:104
+
+  - asn: "61302"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-HUIZE
+    description: "Huize LTD"
+    ip:
+      - 192.34.27.106
+      - 2602:ffb1:0200:0:192:34:27:106
+
+  - asn: "198740"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS198740
+    description: "Speedy Bits LTD"
+    ip:
+      - 192.34.27.107
+      - 2602:ffb1:0200:0:192:34:27:107
+
+  - asn: "200174"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS200174
+    description: "Wispeed LTD"
+    ip:
+      - 192.34.27.108
+      - 2602:ffb1:0200:0:192:34:27:108
+
+  - asn: "23181"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS23181
+    description: "Access DG"
+    ip:
+      - 192.34.27.109
+      - 2602:ffb1:0200:0:192:34:27:109
+
+  - asn: "51019"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS51019:AS-ALL
+    description: "Kjartan Hrafnkelsson trading as KTT"
+    ip:
+      - 192.34.27.110
+      - 2602:ffb1:0200:0:192:34:27:110
+
+  - asn: "203691"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS-MALINDEX
+    description: "Mali Network"
+    ip:
+      - 192.34.27.111
+      - 2602:ffb1:0200:0:192:34:27:111
+
+  - asn: "212618"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS212618:AS-XENTAIN
+    description: "Xentain Solutions Inc."
+    ip:
+      - 192.34.27.112
+      - 2602:ffb1:0200:0:192:34:27:112
+
+  - asn: "198077"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS198077
+    description: "April Internet Limited"
+    ip:
+      - 192.34.27.113
+      - 2602:ffb1:0200:0:192:34:27:113
+
+  - asn: "200160"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS200160:AS-SET
+    description: "Putu Paundrayana Waringin"
+    ip:
+      - 192.34.27.114
+      - 2602:ffb1:0200:0:192:34:27:114
+
+  - asn: "60900"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS60900:AS-MAIN
+            - AS-SSMIDGELLC
+    description: "Ssmidge LLC"
+    ip:
+      - 192.34.27.115
+      - 2602:ffb1:0200:0:192:34:27:115
+
+  - asn: "48717"
+    cfg:
+      filtering:
+        irrdb:
+          as_sets:
+            - AS48717:AS-MAIN
+    description: "Route96 LLC"
+    ip:
+      - 2602:ffb1:0200:0:192:34:27:116
+
+  #- asn: "198789"
+  #  cfg:
+  #    filtering:
+  #      irrdb:
+  #        as_sets:
+  #        - AS198789
+  #  description: "Wispeed LTD"
+  #  ip:
+  #  - 192.34.27.106
+  #  - 2602:ffb1:0200:0:192:34:27:106
+
+  #- asn: "198789"
+  #  cfg:
+  #    filtering:
+  #      irrdb:
+  #        as_sets:
+  #        - AS198789
+  #  description: "Speedy Bits LTD"
+  #  ip:
+  #  - 192.34.27.107
+  #  - 2602:ffb1:0200:0:192:34:27:107
+
+  - asn: "112"
+    cfg:
+      filtering:
+        max_prefix:
+          action: shutdown
+          peering_db:
+            enabled: false
+          limit_ipv4: 10
+          limit_ipv6: 10
+    description: as112.net
+    ip:
+      - 192.34.27.252
+      - 2602:ffb1:0200:0:192:34:27:252
