@@ -1134,7 +1134,19 @@ clients:
         - AS48717:AS-MAIN
   description: "Route96 LLC"
   ip:
+  - 192.34.27.116
   - 2602:ffb1:0200:0:192:34:27:116
+
+- asn: "203913"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS203913:AS-ROHMAN
+  description: "Nurohman"
+  ip:
+  - 192.34.27.117
+  - 2602:ffb1:0200:0:192:34:27:117
 
 #- asn: "198789"
 #  cfg:
