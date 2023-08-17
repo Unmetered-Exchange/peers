@@ -1148,6 +1148,17 @@ clients:
   - 192.34.27.117
   - 2602:ffb1:0200:0:192:34:27:117
 
+- asn: "199762"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS199762:AS-KOMOREBI
+  description: "Adita Tarkono Putra"
+  ip:
+  - 192.34.27.118
+  - 2602:ffb1:0200:0:192:34:27:118
+
 #- asn: "198789"
 #  cfg:
 #    filtering:
