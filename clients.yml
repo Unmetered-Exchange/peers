@@ -1126,14 +1126,15 @@ clients:
   - 192.34.27.115
   - 2602:ffb1:0200:0:192:34:27:115
 
-- asn: "48717"
+- asn: "198585"
   cfg:
     filtering:
       irrdb:
         as_sets:
-        - AS48717:AS-MAIN
-  description: "Route96 LLC"
+        - AS198585
+  description: "WLTCS LLC"
   ip:
+  - 192.34.27.117
   - 2602:ffb1:0200:0:192:34:27:116
 
 - asn: "203913"
