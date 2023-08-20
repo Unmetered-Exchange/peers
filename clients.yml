@@ -1131,7 +1131,7 @@ clients:
     filtering:
       irrdb:
         as_sets:
-        - AS198585
+        - AS198585:AS-MAIN
   description: "WLTCS LLC"
   ip:
   - 192.34.27.117
