@@ -1170,6 +1170,17 @@ clients:
   - 192.34.27.119
   - 2602:ffb1:0200:0:192:34:27:119
 
+  - asn: "58336"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS58336:AS-TSINGYAO
+  description: "Chengde TsingYao Network Technology Service Co., Ltd."
+  ip:
+  - 192.34.27.120
+  - 2602:ffb1:0200:0:192:34:27:120
+
 #- asn: "198789"
 #  cfg:
 #    filtering:
