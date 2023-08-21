@@ -1086,7 +1086,7 @@ clients:
     filtering:
       irrdb:
         as_sets:
-        - AS212618
+        - AS212618:AS-XENTAIN
   description: "Xentain Solutions Inc."
   ip:
   - 192.34.27.112
@@ -1108,7 +1108,7 @@ clients:
     filtering:
       irrdb:
         as_sets:
-        - AS200160
+        - AS200160:AS-SET
   description: "Putu Paundrayana Waringin"
   ip:
   - 192.34.27.114
@@ -1125,6 +1125,61 @@ clients:
   ip:
   - 192.34.27.115
   - 2602:ffb1:0200:0:192:34:27:115
+
+- asn: "198585"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS198585:AS-MAIN
+  description: "WLTCS LLC"
+  ip:
+  - 192.34.27.116
+  - 2602:ffb1:0200:0:192:34:27:116
+
+- asn: "203913"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS203913:AS-ROHMAN
+  description: "Nurohman"
+  ip:
+  - 192.34.27.117
+  - 2602:ffb1:0200:0:192:34:27:117
+
+- asn: "199762"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS199762:AS-KOMOREBI
+  description: "Adita Tarkono Putra"
+  ip:
+  - 192.34.27.118
+  - 2602:ffb1:0200:0:192:34:27:118
+
+- asn: "150249"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS150249:AS-ATHARVA
+  description: "PT Atharva Telematika Persada"
+  ip:
+  - 192.34.27.119
+  - 2602:ffb1:0200:0:192:34:27:119
+
+- asn: "58336"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS58336:AS-TSINGYAO
+  description: "Chengde TsingYao Network Technology Service Co., Ltd."
+  ip:
+  - 192.34.27.120
+  - 2602:ffb1:0200:0:192:34:27:120
 
 #- asn: "198789"
 #  cfg:
