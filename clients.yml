@@ -1081,12 +1081,13 @@ clients:
   - 192.34.27.111
   - 2602:ffb1:0200:0:192:34:27:111
 
-- asn: "212618"
+- asn: "15353"
   cfg:
     filtering:
       irrdb:
         as_sets:
-        - AS212618:AS-XENTAIN
+        - AS-XENTAIN
+        - AS-SORAXUS
   description: "Xentain Solutions Inc."
   ip:
   - 192.34.27.112
