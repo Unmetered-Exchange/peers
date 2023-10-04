@@ -1193,6 +1193,17 @@ clients:
   - 192.34.27.121
   - 2602:ffb1:0200:0:192:34:27:121
 
+- asn: "60539"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS-HUICAST
+  description: "Huicast Telecom Limited"
+  ip:
+  - 192.34.27.122
+  - 2602:ffb1:0200:0:192:34:27:122
+
 #- asn: "198789"
 #  cfg:
 #    filtering:
