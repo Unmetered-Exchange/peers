@@ -49,6 +49,7 @@ clients:
       irrdb:
         as_sets:
         - AS-HURRICANEv6
+        - AS-HURRICANE
       max_prefix:
         action: shutdown
         peering_db:
@@ -58,21 +59,6 @@ clients:
   description: Hurricane Electric
   ip:
   - 2602:ffb1:0200:0:192:34:27:6
-
-- asn: "6939"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS-HURRICANE
-      max_prefix:
-        action: shutdown
-        peering_db:
-          enabled: false
-        limit_ipv4: 200000
-        limit_ipv6: 60000
-  description: Hurricane Electric
-  ip:
   - 192.34.27.6
 
 - asn: "54133"
