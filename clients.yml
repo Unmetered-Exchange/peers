@@ -1223,6 +1223,17 @@ clients:
   - 192.34.27.125
   - 2602:ffb1:0200:0:192:34:27:125
 
+- asn: "216243"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS216243
+  description: "CaiHui Ning"
+  ip:
+  - 192.34.27.126
+  - 2602:ffb1:0200:0:192:34:27:126
+
 #- asn: "198789"
 #  cfg:
 #    filtering:
