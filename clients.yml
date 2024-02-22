@@ -1268,6 +1268,28 @@ clients:
 #  - 2602:ffb1:0200:0:192:34:27:107
 
 
+- asn: "42"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS42
+  description: "WoodyNet Inc"
+  ip:
+  - 192.34.27.250
+  - 2602:ffb1:0200:0:192:34:27:250
+
+- asn: "3856"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS3856
+  description: "Packet Clearing House Inc"
+  ip:
+  - 192.34.27.251
+  - 2602:ffb1:0200:0:192:34:27:251
+
 - asn: "112"
   cfg:
     filtering:
