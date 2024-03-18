@@ -1273,7 +1273,7 @@ clients:
     filtering:
       irrdb:
         as_sets:
-        - AS42
+        - AS-PCH
   description: "WoodyNet Inc"
   ip:
   - 192.34.27.251
@@ -1284,7 +1284,7 @@ clients:
     filtering:
       irrdb:
         as_sets:
-        - AS3856
+        - AS-PCH
   description: "Packet Clearing House Inc"
   ip:
   - 192.34.27.250
