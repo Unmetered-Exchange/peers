@@ -1240,6 +1240,12 @@ clients:
       irrdb:
         as_sets:
         - AS216324:AS-HN-NET
+      max_prefix:
+        action: shutdown
+        peering_db:
+          enabled: false
+        limit_ipv4: 100
+        limit_ipv6: 100
   description: "Hyper Group Network Ltd."
   ip:
   - 192.34.27.127
