@@ -711,7 +711,7 @@ clients:
       irrdb:
         as_sets:
         -  AS-WHITEHAT
-  description: "ROIX"
+  description: "Whitehat Inc"
   ip:
   - 192.34.27.77
   - 2602:ffb1:0200:0:192:34:27:77
