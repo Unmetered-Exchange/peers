@@ -663,16 +663,6 @@ clients:
   ip:
   - 192.34.27.71
   - 2602:ffb1:0200:0:192:34:27:71
-- asn: "205096"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS205096
-  description: "Christopher Munz-Michielin"
-  ip:
-  - 192.34.27.73
-  - 2602:ffb1:0200:0:192:34:27:73
 - asn: "207036"
   cfg:
     filtering:
