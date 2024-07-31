@@ -1273,6 +1273,23 @@ clients:
   - 192.34.27.129
   - 2602:ffb1:0200:0:192:34:27:129
 
+- asn: "140915"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS140915:AS-MKNT
+      max_prefix:
+        action: shutdown
+        peering_db:
+          enabled: false
+        limit_ipv4: 100
+        limit_ipv6: 100
+  description: "Xiang Xuanchen"
+  ip:
+  - 192.34.27.130
+  - 2602:ffb1:0200:0:192:34:27:130
+
 #- asn: "198789"
 #  cfg:
 #    filtering:
