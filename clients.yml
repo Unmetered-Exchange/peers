@@ -1196,7 +1196,7 @@ clients:
     filtering:
       irrdb:
         as_sets:
-        - AS198304:AS-SET
+        - AS-MOEDOVE
   description: "Pinjia Zhao"
   ip:
   - 192.34.27.124
