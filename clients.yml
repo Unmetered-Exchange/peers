@@ -1324,6 +1324,23 @@ clients:
   - 192.34.27.132
   - 2602:ffb1:0200:0:192:34:27:132
 
+- asn: "213576"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS213576
+      max_prefix:
+        action: shutdown
+        peering_db:
+          enabled: false
+        limit_ipv4: 100
+        limit_ipv6: 100
+  description: "Robert Weir"
+  ip:
+  - 192.34.27.133
+  - 2602:ffb1:0200:0:192:34:27:133
+
 #- asn: "198789"
 #  cfg:
 #    filtering:
