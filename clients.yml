@@ -1341,6 +1341,23 @@ clients:
   - 192.34.27.133
   - 2602:ffb1:0200:0:192:34:27:133
 
+- asn: "30265"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS30265
+      max_prefix:
+        action: shutdown
+        peering_db:
+          enabled: false
+        limit_ipv4: 100
+        limit_ipv6: 100
+  description: "77997 Newfoundland and Labrador Inc."
+  ip:
+  - 192.34.27.134
+  - 2602:ffb1:0200:0:192:34:27:134
+
 #- asn: "198789"
 #  cfg:
 #    filtering:
