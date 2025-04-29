@@ -1375,6 +1375,23 @@ clients:
   - 192.34.27.135
   - 2602:ffb1:0200:0:192:34:27:135
 
+- asn: "214344"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS214344
+      max_prefix:
+        action: shutdown
+        peering_db:
+          enabled: false
+        limit_ipv4: 100
+        limit_ipv6: 100
+  description: "AXNetworks"
+  ip:
+  - 192.34.27.136
+  - 2602:ffb1:0200:0:192:34:27:136
+
 #- asn: "198789"
 #  cfg:
 #    filtering:
