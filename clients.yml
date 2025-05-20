@@ -1392,6 +1392,24 @@ clients:
   - 192.34.27.136
   - 2602:ffb1:0200:0:192:34:27:136
 
+- asn: "208223"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS208223
+      max_prefix:
+        action: shutdown
+        peering_db:
+          enabled: false
+        limit_ipv4: 100
+        limit_ipv6: 100
+  description: "fOxO Internet Service Provider"
+  ip:
+  - 192.34.27.137
+  - 2602:ffb1:0200:0:192:34:27:137
+
+
 #- asn: "198789"
 #  cfg:
 #    filtering:
