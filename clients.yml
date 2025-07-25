@@ -815,17 +815,6 @@ clients:
   - 192.34.27.88
   - 2602:ffb1:0200:0:192:34:27:88
 
-- asn: "211571"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS211571
-  description: "Xin Zhao"
-  ip:
-  - 192.34.27.89
-  - 2602:ffb1:0200:0:192:34:27:89
-
 - asn: "205794"
   cfg:
     filtering:
