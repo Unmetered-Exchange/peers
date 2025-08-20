@@ -1397,6 +1397,23 @@ clients:
   - 192.34.27.137
   - 2602:ffb1:0200:0:192:34:27:137
 
+- asn: "215467"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS215467
+      max_prefix:
+        action: shutdown
+        peering_db:
+          enabled: false
+        limit_ipv4: 100
+        limit_ipv6: 100
+  description: "Skhron OU"
+  ip:
+  - 192.34.27.138
+  - 2602:ffb1:0200:0:192:34:27:138
+
 
 #- asn: "198789"
 #  cfg:
