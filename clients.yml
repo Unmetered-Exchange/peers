@@ -1414,12 +1414,12 @@ clients:
   - 192.34.27.138
   - 2602:ffb1:0200:0:192:34:27:138
 
-- asn: "200396"
+- asn: "200936"
   cfg:
     filtering:
       irrdb:
         as_sets:
-        - AS200396
+        - AS200936
       max_prefix:
         action: shutdown
         peering_db:
