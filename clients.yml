@@ -1414,6 +1414,22 @@ clients:
   - 192.34.27.138
   - 2602:ffb1:0200:0:192:34:27:138
 
+- asn: "200396"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS200396
+      max_prefix:
+        action: shutdown
+        peering_db:
+          enabled: false
+        limit_ipv4: 100
+        limit_ipv6: 100
+  description: "Chengjie Guo Experimental Network"
+  ip:
+  - 192.34.27.139
+  - 2602:ffb1:0200:0:192:34:27:139
 
 #- asn: "198789"
 #  cfg:
