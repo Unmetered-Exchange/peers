@@ -549,17 +549,6 @@ clients:
   - 192.34.27.57
   - 2602:ffb1:0200:0:192:34:27:57
 
-- asn: "209870"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        -  AS209870
-  description: "OPTIX TRANSIT LTD"
-  ip:
-  - 192.34.27.58
-  - 2602:ffb1:0200:0:192:34:27:58
-
 - asn: "212895"
   cfg:
     filtering:
