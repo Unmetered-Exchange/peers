@@ -1420,6 +1420,23 @@ clients:
   - 192.34.27.139
   - 2602:ffb1:0200:0:192:34:27:139
 
+- asn: "214022"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS214022
+      max_prefix:
+        action: shutdown
+        peering_db:
+          enabled: false
+        limit_ipv4: 100
+        limit_ipv6: 100
+  description: "Virtnet.bond"
+  ip:
+  - 192.34.27.140
+  - 2602:ffb1:0200:0:192:34:27:140
+
 #- asn: "198789"
 #  cfg:
 #    filtering:
