@@ -110,17 +110,6 @@ clients:
 #  - 192.34.27.3
 #  - 2602:ffb1:0200:0:192:34:27:3
 
-- asn: "14642"
-  cfg:
-    filtering:
-      irrdb:
-        as_sets:
-        - AS14642
-  description: MoreWave
-  ip:
-  - 192.34.27.7
-  - 2602:ffb1:0200:0:192:34:27:7
-
 - asn: "34927"
   cfg:
     filtering:
