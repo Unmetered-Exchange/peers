@@ -1437,6 +1437,23 @@ clients:
   - 192.34.27.140
   - 2602:ffb1:0200:0:192:34:27:140
 
+- asn: "202734"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS202734
+      max_prefix:
+        action: shutdown
+        peering_db:
+          enabled: false
+        limit_ipv4: 100
+        limit_ipv6: 100
+  description: "Tianshome.net"
+  ip:
+  - 192.34.27.141
+  - 2602:ffb1:0200:0:192:34:27:141
+
 #- asn: "198789"
 #  cfg:
 #    filtering:
