@@ -1454,6 +1454,23 @@ clients:
   - 192.34.27.141
   - 2602:ffb1:0200:0:192:34:27:141
 
+- asn: "199277"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS199277
+      max_prefix:
+        action: shutdown
+        peering_db:
+          enabled: false
+        limit_ipv4: 100
+        limit_ipv6: 100
+  description: "Maksims Doronkins"
+  ip:
+  - 192.34.27.142
+  - 2602:ffb1:0200:0:192:34:27:142
+
 #- asn: "198789"
 #  cfg:
 #    filtering:
