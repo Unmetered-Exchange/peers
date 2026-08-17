@@ -1522,6 +1522,23 @@ clients:
   - 192.34.27.145
   - 2602:ffb1:0200:0:192:34:27:145
 
+- asn: "397658"
+  cfg:
+    filtering:
+      irrdb:
+        as_sets:
+        - AS397658
+      max_prefix:
+        action: shutdown
+        peering_db:
+          enabled: false
+        limit_ipv4: 20
+        limit_ipv6: 20
+  description: "Hop179"
+  ip:
+  - 192.34.27.146
+  - 2602:ffb1:0200:0:192:34:27:146
+
 #- asn: "198789"
 #  cfg:
 #    filtering:
