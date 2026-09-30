@@ -766,7 +766,7 @@ clients:
       irrdb:
         as_sets:
         -  AS399992
-  description: "KDTD Net"
+  description: "KJTDNET"
   ip:
   - 192.34.27.86
   - 2602:ffb1:0200:0:192:34:27:86
